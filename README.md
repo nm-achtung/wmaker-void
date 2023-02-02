@@ -3,10 +3,10 @@
 Window Maker set up on Void. 
 
 Dock apps used:
-- wmclock
+- wmtime
 - wmsystemtray
 - asmon
 - wmcpufreq
-- AlsaMixer.app
+- wmamixer
 
 includes wallpaper and .Xdefault
