@@ -1,0 +1,5 @@
+URxvt*transparent: true
+URxvt*foreground: #ffffff
+URxvt*shading: 90
+URxvt*tintColor: #7D75AE
+URxvt*font: xft:terminus:pixelsize=14
