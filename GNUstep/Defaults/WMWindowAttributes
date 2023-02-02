@@ -1,0 +1,14 @@
+{
+  Firefox.Firefox = {
+    Icon = Firefox.Firefox.xpm;
+  };
+  keepassxc.KeePassXC = {
+    Icon = keepassxc.KeePassXC.xpm;
+  };
+  lxterminal.Lxterminal = {
+    Icon = lxterminal.Lxterminal.xpm;
+  };
+  "xfce4-terminal.Xfce4-terminal" = {
+    Icon = "xfce4-terminal.Xfce4-terminal.xpm";
+  };
+}

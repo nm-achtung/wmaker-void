@@ -1,0 +1,217 @@
+{
+  Dock = {
+    AutoRaiseLower = No;
+    Applications = (
+      {
+        Forced = No;
+        Name = Logo.WMDock;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,0";
+        Lock = No;
+        Command = "-";
+      },
+      {
+        Forced = No;
+        Name = wmclock.WMClock;
+        DropCommand = "wmclock %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,1";
+        Lock = No;
+        PasteCommand = "wmclock %s";
+        Command = wmclock;
+      },
+      {
+        Forced = No;
+        Name = asmon.asmon;
+        DropCommand = "asmon %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,2";
+        Lock = No;
+        PasteCommand = "asmon %s";
+        Command = asmon;
+      },
+      {
+        Forced = No;
+        Name = wmcpufreq.wmcpufreq;
+        DropCommand = "wmcpufreq %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,3";
+        Lock = No;
+        PasteCommand = "wmcpufreq %s";
+        Command = wmcpufreq;
+      },
+      {
+        Forced = No;
+        Name = alsamixer_app.AlsaMixer_app;
+        DropCommand = "./AlsaMixer.app %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,4";
+        Lock = No;
+        PasteCommand = "./AlsaMixer.app %s";
+        Command = "./AlsaMixer.app";
+      },
+      {
+        Forced = No;
+        Name = Firefox.Firefox;
+        DropCommand = "Firefox %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,15";
+        Lock = No;
+        PasteCommand = "Firefox %s";
+        Command = Firefox;
+      },
+      {
+        Forced = No;
+        Name = wmsystemtray0.wmsystemtray;
+        DropCommand = "wmsystemtray %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,5";
+        Lock = No;
+        PasteCommand = "wmsystemtray %s";
+        Command = wmsystemtray;
+      },
+      {
+        Forced = No;
+        Name = urxvt.URxvt;
+        DropCommand = "urxvt %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,14";
+        Lock = No;
+        PasteCommand = "urxvt %s";
+        Command = urxvt;
+      }
+    );
+    Applications1080 = (
+      {
+        Forced = No;
+        Name = Logo.WMDock;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,0";
+        Lock = No;
+        Command = "-";
+      },
+      {
+        Forced = No;
+        Name = wmclock.WMClock;
+        DropCommand = "wmclock %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,1";
+        Lock = No;
+        PasteCommand = "wmclock %s";
+        Command = wmclock;
+      },
+      {
+        Forced = No;
+        Name = asmon.asmon;
+        DropCommand = "asmon %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,2";
+        Lock = No;
+        PasteCommand = "asmon %s";
+        Command = asmon;
+      },
+      {
+        Forced = No;
+        Name = wmcpufreq.wmcpufreq;
+        DropCommand = "wmcpufreq %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,3";
+        Lock = No;
+        PasteCommand = "wmcpufreq %s";
+        Command = wmcpufreq;
+      },
+      {
+        Forced = No;
+        Name = alsamixer_app.AlsaMixer_app;
+        DropCommand = "./AlsaMixer.app %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,4";
+        Lock = No;
+        PasteCommand = "./AlsaMixer.app %s";
+        Command = "./AlsaMixer.app";
+      },
+      {
+        Forced = No;
+        Name = Firefox.Firefox;
+        DropCommand = "Firefox %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,15";
+        Lock = No;
+        PasteCommand = "Firefox %s";
+        Command = Firefox;
+      },
+      {
+        Forced = No;
+        Name = wmsystemtray0.wmsystemtray;
+        DropCommand = "wmsystemtray %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,5";
+        Lock = No;
+        PasteCommand = "wmsystemtray %s";
+        Command = wmsystemtray;
+      },
+      {
+        Forced = No;
+        Name = urxvt.URxvt;
+        DropCommand = "urxvt %d";
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,14";
+        Lock = No;
+        PasteCommand = "urxvt %s";
+        Command = urxvt;
+      }
+    );
+    Lowered = Yes;
+    Position = "-64,0";
+  };
+  Clip = {
+    Forced = No;
+    Name = Logo.WMClip;
+    BuggyApplication = No;
+    AutoLaunch = No;
+    Position = "1856,1016";
+    Lock = No;
+    Command = "-";
+  };
+  Drawers = ();
+  Workspaces = (
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 1";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 2";
+    }
+  );
+}
